@@ -1,0 +1,28 @@
+ul{
+    position: fixed;
+    list-style: none;
+    display: flex;
+    text-align: center;
+}
+li {
+    width: 150px;
+    height: 40px;
+    padding-top: 15px;
+    margin-left: 5px;
+}
+
+.background_red{
+    background-color: red;
+}
+
+.background_blue{
+    background-color: blue;
+}
+
+.background_yellow{
+    background-color: yellow;
+}
+
+.background_green{
+    background-color: green;
+}

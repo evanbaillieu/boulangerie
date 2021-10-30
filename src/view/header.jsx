@@ -1,13 +1,14 @@
 import React from 'react';
+import './header.css'
 
 const Header = () => {
     return (
         <header>
             <ul>
-                <li>encre &amp; levure</li>
-                <li>patiserie</li>
-                <li>cours de patiserie</li>
-                <li>a propos</li>
+                <li className="background_red">encre &amp; levure</li>
+                <li className="background_blue">patiserie</li>
+                <li className="background_yellow">cours de patiserie</li>
+                <li className="background_green">a propos</li>
             </ul>
         </header>
     );
