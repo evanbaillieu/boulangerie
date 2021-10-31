@@ -8,4 +8,4 @@ const Apropos = () => {
     );
 }
 
-export default Apropo;
+export default Apropos;
