@@ -3,26 +3,25 @@ ul{
     list-style: none;
     display: flex;
     text-align: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: rgba(247, 255, 233, 0.4);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 li {
     width: 150px;
     height: 40px;
     padding-top: 15px;
-    margin-left: 5px;
+    text-transform: capitalize;
 }
 
-.background_red{
-    background-color: red;
-}
-
-.background_blue{
-    background-color: blue;
-}
-
-.background_yellow{
-    background-color: yellow;
-}
-
-.background_green{
-    background-color: green;
+.logo{
+    width: 75px;
+    height: 35px;
+    position: relative;
+    top:10px;
 }
